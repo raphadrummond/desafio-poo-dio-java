@@ -1,7 +1,11 @@
 import java.time.LocalDate;
 
+import dominio.Conteudo;
 import dominio.Curso;
 import dominio.Mentoria;
+import java.time.LocalDate;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,6 +19,7 @@ public class Main {
         curso2.setDescricao("descrição curso js");
         curso2.setCargaHoraria(4);
 
+
         Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("mentoria de java");
         mentoria.setDescricao("descrição mentoria java");
@@ -23,6 +28,7 @@ public class Main {
         System.out.println(curso1);
         System.out.println(curso2);
         System.out.println(mentoria);
+
 
     }
 }
