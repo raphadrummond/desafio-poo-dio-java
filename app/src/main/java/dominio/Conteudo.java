@@ -6,7 +6,7 @@ import java.util.Set;
 
 public abstract class Conteudo {
 
-    protected static final double XP_PADRAO = 10;
+    protected static final double XP_PADRAO = 10d;
 
     private String titulo;
     private String descricao;
